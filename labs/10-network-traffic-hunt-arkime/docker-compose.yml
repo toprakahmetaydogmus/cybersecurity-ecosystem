@@ -1,0 +1,5 @@
+version: '3.8'
+services:
+  suricata:
+    image: jasonish/suricata:latest
+    container_name: lab_suricata

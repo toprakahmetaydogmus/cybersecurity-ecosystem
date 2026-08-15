@@ -1,0 +1,2 @@
+# Snort Rule for Modbus Unauthorized Write
+alert tcp any any -> any 502 (msg:"ICS Unauthorized Modbus Coil Write"; sid:1000501; rev:1;)

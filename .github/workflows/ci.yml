@@ -1,0 +1,23 @@
+name: Monorepo Ecosystem CI Quality Gate
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test-all-labs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Monorepo
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Test Suite Across All 20 Laboratories
+        run: |
+          python master_lab_runner.py --test-all

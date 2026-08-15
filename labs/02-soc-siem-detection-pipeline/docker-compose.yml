@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  wazuh-indexer:
+    image: wazuh/wazuh-indexer:4.7.2
+    container_name: wazuh.indexer
+    restart: always
+    environment:
+      - "OPENSEARCH_INITIAL_ADMIN_PASSWORD=${INDEXER_PASSWORD:-SecretPass123!}"
+      - "DISCOVERY_TYPE=single-node"
+    ports:
+      - "9200:9200"
+
+  wazuh-dashboard:
+    image: wazuh/wazuh-dashboard:4.7.2
+    container_name: wazuh.dashboard
+    restart: always
+    ports:
+      - "443:5601"

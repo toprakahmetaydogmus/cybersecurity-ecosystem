@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Security & BOLA Defense Playground - Toprak Ahmet Aydoğmuş</title>
+    <style>
+        body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; margin: 0; padding: 20px; }
+        .header { border-bottom: 1px solid #334155; padding-bottom: 10px; margin-bottom: 20px; display: flex; justify-content: space-between; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .box { background: #1e293b; border: 1px solid #334155; border-radius: 8px; padding: 20px; }
+        .btn-red { background: #ef4444; color: #fff; border: none; padding: 8px 14px; border-radius: 6px; cursor: pointer; }
+        .btn-green { background: #10b981; color: #fff; border: none; padding: 8px 14px; border-radius: 6px; cursor: pointer; }
+        pre { background: #020617; padding: 12px; border-radius: 6px; color: #38bdf8; font-size: 13px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>🌐 OWASP API Security Top 10 — BOLA / IDOR Interactive Testbed</h2>
+        <span>Author: <strong>Toprak Ahmet Aydoğmuş</strong></span>
+    </div>
+    <div class="grid">
+        <div class="box">
+            <h3 style="color: #ef4444;">1. Vulnerable Endpoint (No Object-Level Auth)</h3>
+            <p>Request Bob's document as user Alice:</p>
+            <button class="btn-red" onclick="testVulnerable()">GET /api/v1/vulnerable/documents/doc_102</button>
+            <pre id="vuln-output">// Click button to test vulnerable endpoint...</pre>
+        </div>
+        <div class="box">
+            <h3 style="color: #10b981;">2. Secure Endpoint (ABAC Protected)</h3>
+            <p>Request Bob's document as user Alice (With Bearer Token):</p>
+            <button class="btn-green" onclick="testSecure()">GET /api/v1/secure/documents/doc_102</button>
+            <pre id="sec-output">// Click button to test secure endpoint...</pre>
+        </div>
+    </div>
+    <script>
+        function testVulnerable() {
+            document.getElementById("vuln-output").innerText = JSON.stringify({
+                "status_code": 200,
+                "data": { "id": "doc_102", "owner": "user_bob", "content": "Bob Private Vault Keys (DATA LEAKED!)" }
+            }, null, 2);
+        }
+        function testSecure() {
+            document.getElementById("sec-output").innerText = JSON.stringify({
+                "status_code": 403,
+                "detail": "Forbidden: You are not authorized to view this resource (BOLA Prevented by ABAC)"
+            }, null, 2);
+        }
+    </script>
+</body>
+</html>

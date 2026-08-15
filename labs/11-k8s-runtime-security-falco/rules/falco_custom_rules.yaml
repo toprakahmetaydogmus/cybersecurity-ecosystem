@@ -1,0 +1,5 @@
+- rule: Shell in Container
+  desc: Detects shell inside container
+  condition: spawned_process and container and (proc.name in (bash, sh))
+  output: High Shell spawned in container
+  priority: HIGH

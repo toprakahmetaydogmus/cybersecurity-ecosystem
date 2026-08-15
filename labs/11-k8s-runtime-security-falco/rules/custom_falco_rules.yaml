@@ -1,0 +1,19 @@
+- rule: Interactive Shell Spawned in Container
+  desc: Detects an interactive bash/sh shell being opened inside a running container
+  condition: >
+    spawned_process and container and
+    (proc.name in (bash, sh, zsh, ksh, dash))
+  output: >
+    High: Interactive shell opened in container (user=%user.name pod=%k8s.pod.name image=%container.image.repository cmd=%proc.cmdline)
+  priority: HIGH
+  tags: [k8s, runtime, execution, mitre_execution]
+
+- rule: Sensitive ServiceAccount Token Read
+  desc: Detects unauthorized attempt to read Kubernetes service account credentials
+  condition: >
+    open_read and container and
+    (fd.name startswith "/var/run/secrets/kubernetes.io/serviceaccount/token")
+  output: >
+    Critical: Sensitive K8s ServiceAccount token read (user=%user.name pod=%k8s.pod.name proc=%proc.name)
+  priority: CRITICAL
+  tags: [k8s, credential_access, mitre_credential_access]

@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  redis:
+    image: redis:7.0-alpine
+  rabbitmq:
+    image: rabbitmq:3.12-management-alpine

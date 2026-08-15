@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTI Threat Intelligence Explorer - Toprak Ahmet Aydoğmuş</title>
+    <style>
+        body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; margin: 0; padding: 20px; }
+        .header { border-bottom: 1px solid #334155; padding-bottom: 10px; margin-bottom: 20px; display: flex; justify-content: space-between; }
+        .card { background: #1e293b; border: 1px solid #334155; border-radius: 8px; padding: 15px; margin-bottom: 15px; }
+        .badge { background: #3b82f6; color: #fff; padding: 3px 8px; border-radius: 12px; font-size: 12px; }
+        pre { background: #020617; padding: 15px; border-radius: 6px; color: #38bdf8; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>🌐 Cyber Threat Intelligence (CTI) STIX 2.1 Hub</h2>
+        <span>Author: <strong>Toprak Ahmet Aydoğmuş</strong></span>
+    </div>
+    <div class="card">
+        <h3>Threat Feed Ingestion Pipeline</h3>
+        <p>Real-time STIX 2.1 normalization and automated firewall blocklist export.</p>
+        <pre>{
+  "type": "bundle",
+  "id": "bundle--a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "name": "Malicious C2 IP 198.51.100.24",
+      "pattern": "[ipv4-addr:value = '198.51.100.24']",
+      "confidence": 95
+    }
+  ]
+}</pre>
+    </div>
+</body>
+</html>

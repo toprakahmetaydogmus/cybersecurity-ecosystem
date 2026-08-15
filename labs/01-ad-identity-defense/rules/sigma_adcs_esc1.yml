@@ -1,0 +1,24 @@
+title: Suspicious AD CS Certificate Request with Subject Alternative Name (ESC1)
+id: 3c8e4011-8201-49fa-9488-cb94d7621901
+status: production
+description: Detects suspicious certificate enrollment requests specifying Subject Alternative Name (SAN) enabling impersonation.
+references:
+    - https://posts.specterops.io/certified-pre-owned-d95910965cd2
+author: Toprak Ahmet Aydoğmuş
+date: 2026/08/16
+logsource:
+    service: security
+    product: windows
+detection:
+    selection:
+        EventID: 4887
+        Attributes|contains:
+            - 'SAN:'
+            - 'altname:'
+    condition: selection
+falsepositives:
+    - Legitimate web server enrollments with multiple domain aliases
+level: high
+tags:
+    - attack.credential_access
+    - attack.t1649
