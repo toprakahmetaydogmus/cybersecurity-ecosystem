@@ -1,5 +1,6 @@
 # 🛡️ Enterprise Cybersecurity Laboratories Monorepo Ecosystem
 
+[![GitHub release](https://img.shields.io/github/v/release/toprakahmetaydogmus/cybersecurity-ecosystem?color=blue&label=Release)](https://github.com/toprakahmetaydogmus/cybersecurity-ecosystem/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![CI Quality Gate](https://github.com/toprakahmetaydogmus/cybersecurity-ecosystem/actions/workflows/ci.yml/badge.svg)](https://github.com/toprakahmetaydogmus/cybersecurity-ecosystem/actions)
 [![Total Labs](https://img.shields.io/badge/Laboratories-20%20Full%20Projects-brightgreen.svg)](#)
