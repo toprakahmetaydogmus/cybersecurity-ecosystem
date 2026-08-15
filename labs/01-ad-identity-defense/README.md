@@ -1,5 +1,7 @@
 # 🛡️ Active Directory & Identity Defense Lab (AD CS ESC1-ESC8 & Kerberoasting)
 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/toprakahmetaydogmus/01-ad-identity-defense?color=blue&label=Release)](https://github.com/toprakahmetaydogmus/01-ad-identity-defense/releases)
+[![Monorepo](https://img.shields.io/badge/Monorepo-cybersecurity--ecosystem-orange.svg)](https://github.com/toprakahmetaydogmus/cybersecurity-ecosystem)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![CI Quality Gate](https://github.com/toprakahmetaydogmus/01-ad-identity-defense/actions/workflows/ci.yml/badge.svg)](https://github.com/toprakahmetaydogmus/01-ad-identity-defense/actions)
 [![MITRE ATT&CK](https://img.shields.io/badge/MITRE-T1558.003%20%7C%20T1649-red.svg)](https://attack.mitre.org/)

@@ -1,5 +1,7 @@
 # Network Traffic Analysis & PCAP Threat Hunt Pipeline
 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/toprakahmetaydogmus/10-network-traffic-hunt-arkime?color=blue&label=Release)](https://github.com/toprakahmetaydogmus/10-network-traffic-hunt-arkime/releases)
+[![Monorepo](https://img.shields.io/badge/Monorepo-cybersecurity--ecosystem-orange.svg)](https://github.com/toprakahmetaydogmus/cybersecurity-ecosystem)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![CI Quality Gate](https://github.com/toprakahmetaydogmus/10-network-traffic-hunt-arkime/actions/workflows/ci.yml/badge.svg)](https://github.com/toprakahmetaydogmus/10-network-traffic-hunt-arkime/actions)
 [![PCAP](https://img.shields.io/badge/Forensics-DPI%20Hunting-blue.svg)](#)

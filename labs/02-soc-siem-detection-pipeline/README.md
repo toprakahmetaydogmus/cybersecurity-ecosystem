@@ -1,5 +1,7 @@
 # 🛡️ SOC & SIEM Detection Pipeline Lab (Wazuh, Elastic, Sigma)
 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/toprakahmetaydogmus/02-soc-siem-detection-pipeline?color=blue&label=Release)](https://github.com/toprakahmetaydogmus/02-soc-siem-detection-pipeline/releases)
+[![Monorepo](https://img.shields.io/badge/Monorepo-cybersecurity--ecosystem-orange.svg)](https://github.com/toprakahmetaydogmus/cybersecurity-ecosystem)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![CI Quality Gate](https://github.com/toprakahmetaydogmus/02-soc-siem-detection-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/toprakahmetaydogmus/02-soc-siem-detection-pipeline/actions)
 [![Detection Engineering](https://img.shields.io/badge/Domain-Detection%20Engineering-red.svg)](#)

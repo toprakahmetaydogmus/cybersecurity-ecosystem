@@ -1,5 +1,7 @@
 # ☁️ Cloud Security AWS IAM & CIS Hardening Lab
 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/toprakahmetaydogmus/03-cloudsec-aws-audit?color=blue&label=Release)](https://github.com/toprakahmetaydogmus/03-cloudsec-aws-audit/releases)
+[![Monorepo](https://img.shields.io/badge/Monorepo-cybersecurity--ecosystem-orange.svg)](https://github.com/toprakahmetaydogmus/cybersecurity-ecosystem)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![CI Quality Gate](https://github.com/toprakahmetaydogmus/03-cloudsec-aws-audit/actions/workflows/ci.yml/badge.svg)](https://github.com/toprakahmetaydogmus/03-cloudsec-aws-audit/actions)
 [![CIS AWS Benchmark](https://img.shields.io/badge/Compliance-CIS%20AWS%20Benchmark%20v1.4-green.svg)](#)

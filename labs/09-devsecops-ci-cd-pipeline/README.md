@@ -1,5 +1,7 @@
 # Automated DevSecOps CI/CD Security Gate (Gitleaks, Semgrep, Trivy)
 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/toprakahmetaydogmus/09-devsecops-ci-cd-pipeline?color=blue&label=Release)](https://github.com/toprakahmetaydogmus/09-devsecops-ci-cd-pipeline/releases)
+[![Monorepo](https://img.shields.io/badge/Monorepo-cybersecurity--ecosystem-orange.svg)](https://github.com/toprakahmetaydogmus/cybersecurity-ecosystem)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![CI Quality Gate](https://github.com/toprakahmetaydogmus/09-devsecops-ci-cd-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/toprakahmetaydogmus/09-devsecops-ci-cd-pipeline/actions)
 [![DevSecOps](https://img.shields.io/badge/Security-Shift%20Left-brightgreen.svg)](#)

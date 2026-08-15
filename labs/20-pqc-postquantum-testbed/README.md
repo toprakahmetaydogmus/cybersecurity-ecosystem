@@ -1,5 +1,7 @@
 # 🔐 Post-Quantum Cryptography (NIST ML-KEM / ML-DSA) Benchmark Testbed
 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/toprakahmetaydogmus/20-pqc-postquantum-testbed?color=blue&label=Release)](https://github.com/toprakahmetaydogmus/20-pqc-postquantum-testbed/releases)
+[![Monorepo](https://img.shields.io/badge/Monorepo-cybersecurity--ecosystem-orange.svg)](https://github.com/toprakahmetaydogmus/cybersecurity-ecosystem)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![CI Quality Gate](https://github.com/toprakahmetaydogmus/20-pqc-postquantum-testbed/actions/workflows/ci.yml/badge.svg)](https://github.com/toprakahmetaydogmus/20-pqc-postquantum-testbed/actions)
 [![NIST Standard](https://img.shields.io/badge/NIST-FIPS%20203%20%28ML--KEM%29%20%7C%20FIPS%20204-green.svg)](https://csrc.nist.gov/)

@@ -1,5 +1,7 @@
 # Cyber Threat Intelligence STIX 2.1 Pipeline
 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/toprakahmetaydogmus/04-threatintel-misp-opencti?color=blue&label=Release)](https://github.com/toprakahmetaydogmus/04-threatintel-misp-opencti/releases)
+[![Monorepo](https://img.shields.io/badge/Monorepo-cybersecurity--ecosystem-orange.svg)](https://github.com/toprakahmetaydogmus/cybersecurity-ecosystem)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![CI Quality Gate](https://github.com/toprakahmetaydogmus/04-threatintel-misp-opencti/actions/workflows/ci.yml/badge.svg)](https://github.com/toprakahmetaydogmus/04-threatintel-misp-opencti/actions)
 [![STIX 2.1](https://img.shields.io/badge/Standard-STIX%202.1%20%7C%20TAXII-blue.svg)](#)

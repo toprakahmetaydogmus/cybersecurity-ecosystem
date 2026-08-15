@@ -1,5 +1,7 @@
 # OT / ICS / SCADA Modbus Telemetry & Snort Threat Hunter
 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/toprakahmetaydogmus/07-ics-scada-modbus-hunter?color=blue&label=Release)](https://github.com/toprakahmetaydogmus/07-ics-scada-modbus-hunter/releases)
+[![Monorepo](https://img.shields.io/badge/Monorepo-cybersecurity--ecosystem-orange.svg)](https://github.com/toprakahmetaydogmus/cybersecurity-ecosystem)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![CI Quality Gate](https://github.com/toprakahmetaydogmus/07-ics-scada-modbus-hunter/actions/workflows/ci.yml/badge.svg)](https://github.com/toprakahmetaydogmus/07-ics-scada-modbus-hunter/actions)
 [![OT Security](https://img.shields.io/badge/Protocol-Modbus%2FTCP-orange.svg)](#)

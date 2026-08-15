@@ -1,5 +1,7 @@
 # 🌐 API Security & Broken Object Level Auth (BOLA / IDOR) Testbed
 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/toprakahmetaydogmus/06-api-security-bola-testbed?color=blue&label=Release)](https://github.com/toprakahmetaydogmus/06-api-security-bola-testbed/releases)
+[![Monorepo](https://img.shields.io/badge/Monorepo-cybersecurity--ecosystem-orange.svg)](https://github.com/toprakahmetaydogmus/cybersecurity-ecosystem)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![CI Quality Gate](https://github.com/toprakahmetaydogmus/06-api-security-bola-testbed/actions/workflows/ci.yml/badge.svg)](https://github.com/toprakahmetaydogmus/06-api-security-bola-testbed/actions)
 [![OWASP API Security](https://img.shields.io/badge/OWASP-API1%3A2023%20BOLA-red.svg)](https://owasp.org/API-Security/)

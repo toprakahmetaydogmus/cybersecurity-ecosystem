@@ -1,5 +1,7 @@
 # IoT & Embedded Firmware Security Analysis Pipeline
 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/toprakahmetaydogmus/17-iot-firmware-emulation?color=blue&label=Release)](https://github.com/toprakahmetaydogmus/17-iot-firmware-emulation/releases)
+[![Monorepo](https://img.shields.io/badge/Monorepo-cybersecurity--ecosystem-orange.svg)](https://github.com/toprakahmetaydogmus/cybersecurity-ecosystem)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![CI Quality Gate](https://github.com/toprakahmetaydogmus/17-iot-firmware-emulation/actions/workflows/ci.yml/badge.svg)](https://github.com/toprakahmetaydogmus/17-iot-firmware-emulation/actions)
 [![IoT Security](https://img.shields.io/badge/Platform-Embedded%20%7C%20MIPS%2FARM-orange.svg)](#)

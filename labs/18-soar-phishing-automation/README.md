@@ -1,5 +1,7 @@
 # SOAR Automated Phishing Triage Pipeline
 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/toprakahmetaydogmus/18-soar-phishing-automation?color=blue&label=Release)](https://github.com/toprakahmetaydogmus/18-soar-phishing-automation/releases)
+[![Monorepo](https://img.shields.io/badge/Monorepo-cybersecurity--ecosystem-orange.svg)](https://github.com/toprakahmetaydogmus/cybersecurity-ecosystem)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![CI Quality Gate](https://github.com/toprakahmetaydogmus/18-soar-phishing-automation/actions/workflows/ci.yml/badge.svg)](https://github.com/toprakahmetaydogmus/18-soar-phishing-automation/actions)
 [![SOAR](https://img.shields.io/badge/Automation-SOAR%20Triage-blueviolet.svg)](#)
